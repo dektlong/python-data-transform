@@ -1,5 +1,5 @@
 accelerator:
-  displayName: ML with Pyton
+  displayName: Data transformation with Python
   description: Template for building a flexible data transformation and manipulation appplication with Python
   iconUrl: https://raw.githubusercontent.com/dektlong/python-template/main/pyton.png
   tags:
@@ -23,70 +23,37 @@ accelerator:
         text: K8s deployment with Skaffold configs
       - value: cf
         text: Tanzu App Service (cf)
-  - name: addAlv
-    label: Add application live view
-    description: Add application live view sidecar to your deployment config
-    inputType: toggle 
-    defaultValue: false
-    dataType: boolean
-    dependsOn:
-      name: appDeploymentType
-      value: k8s
         
   - name: gitRepo
     label: Git repo
     inputType: text
     required: true
     dataType: string
-    defaultValue: https://github.com/dektlong/dekt4pets-backend
+    defaultValue: https://github.com/dektlong/my-data-transform
   
-  - name: javaVersion
-    label: Java version
-    description: Java runtime version
+  - name: phytonVersion
+    label: Phyton version
+    description: Phyton version
     required: true
-    defaultValue: "11"
+    defaultValue:  "3.8"
     inputType: select
     choices:
-      - value: "11"
-        text: 11 
-      - value: "17"
-        text: 17 (dev only)
+      - value: "3.7"
+        text: 3.7
+      - value: "3.8"
+        text: 3.8
+      - value: "3.10"
+        text: 3.10 (Dev only)
         
-  #apis groups
-  - name: firstApiGroup
-    label: First level API group
-    description: Name of the first level API group
-    defaultValue: apiGroup1
-    required: true
-    defaultValue: apiGroup1
-  - name: secondApiGroup
-    label: Second level API group
-    display: true
-    description: Name of the second API group
-    defaultValue: apiGroup2
-  - name: thirdApiGroup
-    label: Third  level API group
-    description: Name of the third API group
-    defaultValue: apiGroup3
-  - name: forthApiGroup
-    label: Forth level API group
-    description: Name of the forth API group
-    defaultValue: apiGroup4
-  - name: fifthApiGroup
-    label: Fifth level API group
-    description: Name of the Fifth API group
-    defaultValue: apiGroup5
-
-  #optional - data entity      
-  - name: addDataEntity
+  - name: addVirtual
     label: Add data service entity bean
     description: Add a data service entity bean class to the generated code
     inputType: toggle
     display: true
     dataType: boolean
     defaultValue: false
-  - name: entityType
-    label: Data service entity type
+  - name: packageInstaller
+    label: Package Installer
     description: Select the data service type
     dependsOn:
       name: addDataEntity
