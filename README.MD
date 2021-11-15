@@ -1,3 +1,3 @@
 # ML with Python
 
-## Template for building a machine learding application with Python
+## Template for building a machine learning application with Python
