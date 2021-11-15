@@ -60,7 +60,7 @@ accelerator:
         text: Flask
   
   - name: adv
-    label: Include advanced data processing
+    label: Add data processing
     description: Include advanced data processing
     inputType: toggle
     display: true
