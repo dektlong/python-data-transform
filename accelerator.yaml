@@ -49,13 +49,13 @@ accelerator:
     label: Core services
     description: Select the core pyhton services to add to your project
     inputType: checkbox
-      choices:
-        - value: flake
-          text: Flake
-        - value: gunicorn
-          text: Gunicorn
-        - value: flask
-          text: Flask
+    choices:
+      - value: flake
+        text: Flake
+      - value: gunicorn
+        text: Gunicorn
+      - value: flask
+        text: Flask
   
   - name: adv
     label: Include advanced data processing
