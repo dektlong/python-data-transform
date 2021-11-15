@@ -72,7 +72,7 @@ accelerator:
     description: Select the data processing libraries to add to your project
     inputType: checkbox
     dataType: [string]
-      defaultValue: [ numpy ]
+    defaultValue: [ numpy ]
     dependsOn:
       name: adv
       value: true
