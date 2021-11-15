@@ -1,3 +1,3 @@
-# ML with Python
+#Data transformation with Python
 
-## Template for building a machine learning application with Python
+## Template for building a flexible data transformation and manipulation appplication with Python
