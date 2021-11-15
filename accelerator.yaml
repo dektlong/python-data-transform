@@ -7,7 +7,6 @@ accelerator:
 
   options:
   
-  #deployment
   - name: appDeploymentType
     label: Deployment environment
     description: Type of deployment configurations
