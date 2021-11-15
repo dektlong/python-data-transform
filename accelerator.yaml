@@ -43,7 +43,7 @@ accelerator:
       - value: "3.8"
         text: 3.8
       - value: "3.10"
-        text: 3.10 (Dev only)
+        text: "3.10 (Dev only)"
     
   - name: coreServices
     label: Core services
