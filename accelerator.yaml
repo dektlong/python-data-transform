@@ -3,7 +3,7 @@ accelerator:
   description: Template for building a flexible data transformation and manipulation appplication with Python
   iconUrl: https://raw.githubusercontent.com/dektlong/python-template/main/pyton.png
   tags:
-  - cloud-native
+  - emerging-patterns
 
   options:
   
