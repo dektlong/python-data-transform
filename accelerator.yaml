@@ -71,6 +71,8 @@ accelerator:
     label: Data processing libraries 
     description: Select the data processing libraries to add to your project
     inputType: checkbox
+    dataType: [string]
+      defaultValue: [ numpy ]
     dependsOn:
       name: adv
       value: true
@@ -91,6 +93,3 @@ accelerator:
     display: true
     dataType: boolean
     defaultValue: false
-      
-      
- 
