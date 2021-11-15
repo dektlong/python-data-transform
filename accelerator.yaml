@@ -82,7 +82,7 @@ accelerator:
       - value: seaborn
         text: Seaborn
    
-   - name: addML
+  - name: addML
     label: Add machine learning
     description: Add machine learing with scikit-learn
     inputType: toggle
