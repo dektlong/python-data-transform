@@ -15,13 +15,9 @@ accelerator:
     inputType: select
     choices:
       - value: tap
-        text: Tanzu App Platform
-      - value: k8s
-        text: K8s deployment
-      - value: k8sSkaffold
-        text: K8s deployment with Skaffold configs
+        text: Tanzu App Platform workload
       - value: cf
-        text: Tanzu App Service (cf)
+        text: Tanzu App Service manifest
         
   - name: gitRepo
     label: Git repo
