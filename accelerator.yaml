@@ -45,7 +45,8 @@ accelerator:
     description: Select the core pyhton services to add to your project
     inputType: checkbox
     required: true
-    defaultValue:  gunicorn
+    defaultValue:  [gunicorn]
+    dataType: [string]
     choices:
       - value: flake
         text: Flake
@@ -57,8 +58,6 @@ accelerator:
   - name: adv
     label: Add data processing
     description: Include advanced data processing
-    inputType: toggle
-    display: true
     dataType: boolean
     defaultValue: false
     
@@ -85,6 +84,5 @@ accelerator:
     label: Add machine learning
     description: Add machine learing with scikit-learn
     inputType: toggle
-    display: true
     dataType: boolean
     defaultValue: false
