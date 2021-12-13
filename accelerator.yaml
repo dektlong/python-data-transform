@@ -58,8 +58,6 @@ accelerator:
   - name: adv
     label: Add data processing
     description: Include advanced data processing
-    inputType: toggle
-    display: true
     dataType: boolean
     defaultValue: false
     
@@ -86,6 +84,5 @@ accelerator:
     label: Add machine learning
     description: Add machine learing with scikit-learn
     inputType: toggle
-    display: true
     dataType: boolean
     defaultValue: false
