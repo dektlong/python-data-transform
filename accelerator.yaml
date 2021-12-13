@@ -45,7 +45,8 @@ accelerator:
     description: Select the core pyhton services to add to your project
     inputType: checkbox
     required: true
-    defaultValue:  gunicorn
+    defaultValue:  [gunicorn]
+    dataType: [string]
     choices:
       - value: flake
         text: Flake
