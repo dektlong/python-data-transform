@@ -24,7 +24,7 @@ accelerator:
     inputType: text
     required: true
     dataType: string
-    defaultValue: https://github.com/dektlong/my-data-transform
+    defaultValue: my-data-transform
   
   - name: phytonVersion
     label: Phyton version
@@ -43,7 +43,7 @@ accelerator:
   - name: coreServices
     label: Core services
     description: Select the core pyhton services to add to your project
-    inputType: checkbox
+    inputType: select
     required: true
     defaultValue:  gunicorn
     choices:
@@ -57,7 +57,7 @@ accelerator:
   - name: adv
     label: Add data processing
     description: Include advanced data processing
-    inputType: toggle
+    inputType: checkbox
     display: true
     dataType: boolean
     defaultValue: false
@@ -65,7 +65,7 @@ accelerator:
   - name: dataLibs
     label: Data processing libraries 
     description: Select the data processing libraries to add to your project
-    inputType: checkbox
+    inputType: select
     dataType: [string]
     defaultValue: [ numpy ]
     dependsOn:
@@ -84,7 +84,7 @@ accelerator:
   - name: addML
     label: Add machine learning
     description: Add machine learing with scikit-learn
-    inputType: toggle
+    inputType: checkbox
     display: true
     dataType: boolean
     defaultValue: false
