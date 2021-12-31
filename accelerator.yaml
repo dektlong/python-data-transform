@@ -80,11 +80,3 @@ accelerator:
         text: Matplotlib    
       - value: seaborn
         text: Seaborn
-   
-  - name: addML
-    label: Add machine learning
-    description: Add machine learing with scikit-learn
-    inputType: checkbox
-    display: true
-    dataType: boolean
-    defaultValue: false
